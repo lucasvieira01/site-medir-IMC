@@ -15,9 +15,9 @@ img {
 }
 div#fundo {
     background-image: url(imagens/pexels-laura-tancredi-7078712.jpg);
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 h1 {
     color: white;
@@ -25,7 +25,7 @@ h1 {
 }
 div#imc {
     background-color: rgb(245, 245, 51);
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     border: 1px solid;
 }
