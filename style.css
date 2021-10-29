@@ -1,10 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: linear-gradient(to top, rgb(93, 93, 214), rgb(192, 192, 218), white);
+    background-image: linear-gradient(to top, rgb(93, 93, 214), rgb(192, 192, 218), white);    
 }
-img {
-    width: 100px;
+body > img {
+    margin: auto;
 }
 #titulo {
     line-height: 70px;
@@ -15,6 +15,7 @@ img {
 }
 div#fundo {
     background-image: url(imagens/pexels-laura-tancredi-7078712.jpg);
+    min-width: 375px;
     max-width: 600px;
     margin: 0 auto;
     border-radius: 5px;
@@ -25,6 +26,7 @@ h1 {
 }
 div#imc {
     background-color: rgb(245, 245, 51);
+    min-width: 375px;
     max-width: 500px;
     margin: 0 auto;
     border: 1px solid;
