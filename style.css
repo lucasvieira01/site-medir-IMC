@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(93, 93, 214), rgb(192, 192, 218), white);
+}
+img {
+    width: 100px;
+}
+#titulo {
+    line-height: 70px;
+    background-color: orangered;
+    border: 1px solid; border-radius: 15px;
+    width: 400px;
+    margin: 0 auto;
+}
+div#fundo {
+    background-image: url(imagens/pexels-laura-tancredi-7078712.jpg);
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+h1 {
+    color: white;
+    font-size: 30pt;
+}
+div#imc {
+    background-color: rgb(245, 245, 51);
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+p {
+    text-align: center;
+}
+table{
+    width: 100%;
+    border: 0;
+    padding-left: 60px;
+    text-align: left;
+}
+td {
+    width: 50%;
+}
+
+var re{
+    font-size: 40pt ;
+}
+input#altura {
+    width: 60px;
+}
+input#peso {
+    width: 60px;
+}

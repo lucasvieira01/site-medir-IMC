@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="imagens/musculo.png" alt="musculo">
+    <div id="fundo">
+        <div id="titulo">
+            <h1>Cálculo de IMC</h1>
+        </div>
+        <h2>Índice de massa corporal</h2>
+        <p>Digite a sua altura em metros (ex: 1,60):
+            <input type="number" name="altura" id="altura">
+        </p>
+        <p>Digite o seu peso em quilos (ex: 68,2):
+            <input type="number" name="peso" id="peso">
+        </p>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <hr>
+        <div id="imc">
+            <h2 style="background-color: rgb(252, 248, 7);"><ins>VEJA A INTERPRETAÇÃO DO IMC</ins></h2>
+            <h3><ins>IMC CLASSIFICAÇÃO</ins></h3>
+            <table>
+                <tr><td>Menor que 18,5</td><td>Magreza</td></tr>
+                <tr><td>Entre 15,5 e 24,9</td><td>Normal</td></tr>
+                <tr><td>Entre 25,0 e 29,9</td><td>Sobrepeso</td></tr>
+                <tr><td>Entre 30,0 e 39,9</td><td>Obesidade</td></tr>
+                <tr><td>Maior que 40,0</td><td>Obesidade grave</td></tr>          
+            </table>
+        </div>
+        <div id="res" style="background-color: rgb(250, 45, 9); color: white; height: 50px;  border-radius: 2px; font-size: 20pt; font-style: italic;" >
+            <hr>
+            Seu IMC:
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
